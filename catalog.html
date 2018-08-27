@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Нёрдс</title>
+</head>
+<body>
+
+<header class="header">
+
+  <h1 class="visually-hidden">Нёрдс</h1>
+
+  <div class="header__top">
+
+    <a class="header__logo" href="/">
+      <img src="http://placehold.it/150x100" width="" height="" alt="Нёрдс">
+    </a>
+
+    <nav class="nav">
+
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="#">Студия</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Клиенты</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="/catalog.html">Магазин</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="#">Контакты</a>
+        </li>
+      </ul>
+
+      <ul class="nav__actions">
+        <li class="nav__action">
+          <a class="nav__link nav__link--cart" href="#">
+            Корзина
+          </a>
+        </li>
+      </ul>
+
+    </nav>
+
+  </div>
+
+  <div class="header__bottom">
+
+    <h1 class="page-title">Магазин готовых шаблонов</h1>
+
+  </div>
+
+</header>
+
+<div class="main">
+
+  <div class="main__left">
+
+    <section class="filters">
+
+      <fieldset class="filter-range">
+        <legend class="filter-range__legend">
+          Стоимость
+        </legend>
+        <div class="filter-range__controls">
+          <label class="filter-range__control"> от <input type="text" name="price[min]" placeholder="0"></label>
+          <label class="filter-range__control"> до <input type="text" name="price[max]" placeholder="15000"></label>
+        </div>
+        <div class="filter-range__controls">
+
+        </div>
+      </fieldset>
+
+      <fieldset class="form__group">
+        <legend class="form__legend">Сетка</legend>
+        <div class="form__fields">
+          <label class="radio">
+            <input class="radio__input" type="radio" name="grid" value="adaptive">
+            <span class="radio__text">Адаптивная</span>
+          </label>
+          <label class="radio">
+            <input class="radio__input" type="radio" name="grid" value="fix">
+            <span class="radio__text">Фиксированная</span>
+          </label>
+          <label class="radio">
+            <input class="radio__input" type="radio" name="grid" value="responsive">
+            <span class="radio__text">Резиновая</span>
+          </label>
+        </div>
+      </fieldset>
+
+      <fieldset class="form__group">
+        <legend class="form__legend">Особенности</legend>
+        <div class="form__fields">
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="features" value="slider">
+            <span class="checkbox__text">Слайдер</span>
+          </label>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="features" value="advantages">
+            <span class="checkbox__text">Блок преимуществ</span>
+          </label>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="features" value="news">
+            <span class="checkbox__text">Новости</span>
+          </label>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="features" value="gallery">
+            <span class="checkbox__text">Галерея</span>
+          </label>
+          <label class="checkbox">
+            <input class="checkbox__input" type="checkbox" name="features" value="cart">
+            <span class="checkbox__text">Корзина</span>
+          </label>
+        </div>
+      </fieldset>
+
+    </section>
+
+  </div>
+
+  <div class="main__right">
+
+    <section class="templates">
+
+      <div class="templates__item">
+        <div class="templates__top">
+
+        </div>
+        <div class="templates__preview">
+          <img src="http://placehold.it/150x100" height="" width="" alt="Превью макета SEDONA">
+        </div>
+        <div class="templates__info">
+          <h3 class="templates__header">SEDONA</h3>
+          <p class="templates__text">Информационный сайт для туристов</p>
+          <a class="templates__action button button--red button--uppercase">9 900 руб.</a>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+</div>
+
+<footer class="footer">
+
+  <div class="map">
+    <div class="map__contacts">
+      <h3 class="map__header">NЁRDS DESIGN STUDIO</h3>
+      <p class="map__text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p class="map__text">тел. +7 (812) 275-75-75</p>
+      <a class="button button--red button--full-width button--uppercase" href="mailto:">Напишите нам</a>
+    </div>
+    <div class="map__container"></div>
+  </div>
+
+  <div class="footer">
+    <div class="socials">
+      <span class="socials__item socials__item--vk"></span>
+      <span class="socials__item socials__item--fb"></span>
+      <span class="socials__item socials__item--in"></span>
+    </div>
+    <div class="footer__content">
+      <strong class="footer__promo">Давайте дружить, это выгодно!</strong>
+      <span class="footer_promo-text">Скидка 10% для друзей из социальных сетей.</span>
+    </div>
+  </div>
+
+</footer>
+
+</body>
+</html>
