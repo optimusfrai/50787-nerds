@@ -59,62 +59,68 @@
 
     <section class="filters">
 
-      <fieldset class="filter-range">
-        <legend class="filter-range__legend">
-          Стоимость
-        </legend>
-        <div class="filter-range__controls">
-          <label class="filter-range__control"> от <input type="text" name="price[min]" placeholder="0"></label>
-          <label class="filter-range__control"> до <input type="text" name="price[max]" placeholder="15000"></label>
-        </div>
-        <div class="filter-range__controls">
+      <form class="form">
 
-        </div>
-      </fieldset>
+        <fieldset class="filter-range">
+          <legend class="filter-range__legend">
+            Стоимость
+          </legend>
+          <div class="filter-range__controls">
+            <label class="filter-range__control"> от <input type="text" name="price[min]" placeholder="0"></label>
+            <label class="filter-range__control"> до <input type="text" name="price[max]" placeholder="15000"></label>
+          </div>
+          <div class="filter-range__controls">
 
-      <fieldset class="form__group">
-        <legend class="form__legend">Сетка</legend>
-        <div class="form__fields">
-          <label class="radio">
-            <input class="radio__input" type="radio" name="grid" value="adaptive">
-            <span class="radio__text">Адаптивная</span>
-          </label>
-          <label class="radio">
-            <input class="radio__input" type="radio" name="grid" value="fix">
-            <span class="radio__text">Фиксированная</span>
-          </label>
-          <label class="radio">
-            <input class="radio__input" type="radio" name="grid" value="responsive">
-            <span class="radio__text">Резиновая</span>
-          </label>
-        </div>
-      </fieldset>
+          </div>
+        </fieldset>
 
-      <fieldset class="form__group">
-        <legend class="form__legend">Особенности</legend>
-        <div class="form__fields">
-          <label class="checkbox">
-            <input class="checkbox__input" type="checkbox" name="features" value="slider">
-            <span class="checkbox__text">Слайдер</span>
-          </label>
-          <label class="checkbox">
-            <input class="checkbox__input" type="checkbox" name="features" value="advantages">
-            <span class="checkbox__text">Блок преимуществ</span>
-          </label>
-          <label class="checkbox">
-            <input class="checkbox__input" type="checkbox" name="features" value="news">
-            <span class="checkbox__text">Новости</span>
-          </label>
-          <label class="checkbox">
-            <input class="checkbox__input" type="checkbox" name="features" value="gallery">
-            <span class="checkbox__text">Галерея</span>
-          </label>
-          <label class="checkbox">
-            <input class="checkbox__input" type="checkbox" name="features" value="cart">
-            <span class="checkbox__text">Корзина</span>
-          </label>
-        </div>
-      </fieldset>
+        <fieldset class="form__group">
+          <legend class="form__legend">Сетка</legend>
+          <div class="form__fields">
+            <label class="radio">
+              <input class="radio__input" type="radio" name="grid" value="adaptive">
+              <span class="radio__text">Адаптивная</span>
+            </label>
+            <label class="radio">
+              <input class="radio__input" type="radio" name="grid" value="fix">
+              <span class="radio__text">Фиксированная</span>
+            </label>
+            <label class="radio">
+              <input class="radio__input" type="radio" name="grid" value="responsive">
+              <span class="radio__text">Резиновая</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset class="form__group">
+          <legend class="form__legend">Особенности</legend>
+          <div class="form__fields">
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox" name="features" value="slider">
+              <span class="checkbox__text">Слайдер</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox" name="features" value="advantages">
+              <span class="checkbox__text">Блок преимуществ</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox" name="features" value="news">
+              <span class="checkbox__text">Новости</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox" name="features" value="gallery">
+              <span class="checkbox__text">Галерея</span>
+            </label>
+            <label class="checkbox">
+              <input class="checkbox__input" type="checkbox" name="features" value="cart">
+              <span class="checkbox__text">Корзина</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <button class="button" type="submit">Показать</button>
+
+      </form>
 
     </section>
 
